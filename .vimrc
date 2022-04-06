@@ -1,3 +1,5 @@
+set nocompatible
+
 " Enable filetype and filetype plugin detection
 filetype on
 filetype plugin on
@@ -43,3 +45,22 @@ augroup filetype_vim
     autocmd!
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+    Plug 'preservim/nerdtree'
+call plug#end()
+
+" Keymaps
+" Normal mode
+nnoremap o o<esc>
+nnoremap O O<esc>
+nnoremap Y y$
+
+" Insert mode
+inoremap jj <esc>
+
+" Visual mode
+
+" Plugin Keymaps
+map <F2> :NERDTreeToggle <CR>
