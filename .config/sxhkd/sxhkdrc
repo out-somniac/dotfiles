@@ -1,10 +1,23 @@
 # terminal emulator
+aspc config border_radius 5
 super + Return
 	kitty
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -terminal kitty -show drun
+
+# emoji picker
+super + shift + e
+	rofi -show emoji
+
+# power menu
+super + l
+	rofi-power
+
+# wifi menu
+super + n
+	rofi-wifi
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -12,7 +25,7 @@ super + Escape
 
 # quit/restart bspwm
 super + alt + {q,r}
-	bspc {quit,wm -r}
+	bspc{quit,wm -r}
 
 # close and kill
 super + {_,shift + }w
@@ -114,9 +127,13 @@ super + {Left,Down,Up,Right}
 
 # manupulate brightness
 super + ctrl + {Up,Down}
-  brightnessctl s 200{+,-}  
+  brightnessctl s 300{+,-}  
 
 # manipulate volume
 super + ctrl + {Right,Left}
 	amixer sset 'Master' 5%{+,-}
+
+# mute toggle
+super + shift + m
+	amixer sset 'Master' 1+ toggle
 

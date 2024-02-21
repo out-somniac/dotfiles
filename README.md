@@ -1,0 +1,14 @@
+## TODO
+ - [X] Add icons to `.local/bin/rofi-power`
+ - [ ] Add audio
+ - [ ] Better polybar
+ - [ ] Dual screen polybar
+ - [ ] Switch to ZSH
+ - [ ] Nvim setup for rust
+ - [ ] Dunst
+ - [ ] Better prompt
+ - [ ] Tmux
+ - [ ] LF
+ - [ ] Screenshot utility
+ - [ ] Background blur when logged outi
+ - [ ] Fix ethernet driver

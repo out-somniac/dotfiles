@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Power menu script using tofi
+
+CHOSEN=$(printf "󰒲 Suspend\n󰜉 Reboot\n󰐥 Shutdown\n󰍃 Log Out" | rofi -dmenu -i)
+
+case "$CHOSEN" in
+	"󰒲 Suspend") systemctl suspend-then-hibernate ;;
+	"󰜉 Reboot") reboot ;;
+	"󰐥 Shutdown") poweroff ;;
+	"󰍃 Log Out") dm-tool lock ;;
+	*) exit 1 ;;
+esac
