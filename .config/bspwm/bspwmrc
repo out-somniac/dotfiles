@@ -14,8 +14,8 @@ picom --config ~/.config/picom/picom.conf &
 feh --bg-fill ~/wallpaper.png &
 $HOME/.config/polybar/launch.sh main &
 
-bspc monitor eDP-1 -d I II III IV V
-bspc monitor HDMI-1 -d VI VII VIII IX
+bspc monitor eDP-1 -d I II III IV
+bspc monitor HDMI-1 -d VI VII VIII
 bspc config border_width 2
 bspc config window_gap 8
 

@@ -1,7 +1,7 @@
 ## TODO
  - [X] Add icons to `.local/bin/rofi-power`
- - [ ] Add audio
- - [ ] Better polybar
+ - [X] Add audio
+ - [X] Better polybar
  - [ ] Dual screen polybar
  - [ ] Switch to ZSH
  - [ ] Nvim setup for rust
