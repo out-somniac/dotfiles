@@ -2,9 +2,10 @@
  - [X] Add icons to `.local/bin/rofi-power`
  - [X] Add audio
  - [X] Better polybar
- - [ ] Dual screen polybar
+ - [X] Dual screen polybar
  - [ ] Switch to ZSH
  - [ ] Nvim setup for rust
+ - [ ] Fix nvim setup for C++ (autoformating, and debugger)
  - [ ] Dunst
  - [ ] Better prompt
  - [ ] Tmux
