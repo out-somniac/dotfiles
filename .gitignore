@@ -2,3 +2,5 @@
 .config/pulse/
 .config/spotify/
 .config/discord/
+.config/htop/
+.config/dconf/
