@@ -11,7 +11,7 @@ feh --bg-fill ~/wallpaper.png &
 $HOME/.config/polybar/launch.sh main &
 
 # Configure bspwm monitors
-bspc monitor HDMI-1 -d I II III IV V VI
+bspc monitor eDP-1 -d I II III IV V VI
 # bspc monitor eDP-1 -d VI VII VIII
 bspc config border_width 2
 bspc config window_gap 8
