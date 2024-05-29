@@ -7,6 +7,9 @@ super + Return
 super + @space
 	rofi -terminal kitty -show drun
 
+super + shift + @space
+  rofi -terminal kitty -show window
+
 # emoji picker
 super + shift + e
 	rofi -show emoji

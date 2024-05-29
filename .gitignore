@@ -1,6 +1,5 @@
-.config/vlc/
-.config/pulse/
-.config/spotify/
-.config/discord/
-.config/htop/
-.config/dconf/
+.config/
+
+
+# Ignore local bin files
+.local/bin/slice2py
