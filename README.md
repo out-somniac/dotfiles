@@ -21,7 +21,8 @@ an' run `stow .` t' apply these dotfiles, me hearties.
 > [!NOTE]  
 > Arrr! 'Tis been a fair while since I last inspected these provisions. Don't be puttin' yer trust in me word alone, matey!
 
-
+## Fonts
+Ye'll be wantin' t' install some nerd fonts fer some fine ligatures! I'd be recommendin' ttf-fira-code, me hearty!
 
 ## Branches and differences
 Arrr, listen up, ye landlubbers! The [main](https://github.com/out-somniac/dotfiles/tree/main) branch be holdin' the bare bones setup. But mark ye well, since I be usin' this setup on more than one vessel, I've got two more branches:
