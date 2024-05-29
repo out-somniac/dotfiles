@@ -21,6 +21,12 @@ an' run `stow .` t' apply these dotfiles, me hearties.
 > [!NOTE]  
 > Arrr! 'Tis been a fair while since I last inspected these provisions. Don't be puttin' yer trust in me word alone, matey!
 
+## Nvim setup and starting configuration
+I've plundered [NvChad](https://github.com/out-somniac/NvChad) an' stashed me configuration files there. Ye can make use o' these defaults by cloning 'em into th' `.config/` directory:
+```
+git clone -b v2.0 [https://github.com/NvChad/NvChad](https://github.com/out-somniac/NvChad) ~/.config/nvim --depth 1 && nvim
+```
+
 ## Fonts
 Ye'll be wantin' t' install some nerd fonts fer some fine ligatures! I'd be recommendin' ttf-fira-code, me hearty!
 
