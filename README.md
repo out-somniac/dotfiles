@@ -7,8 +7,21 @@ Arrr matey! To sail smooth seas with this here repo, ye must first stock yer hol
 ```
 sudo pacman -S bspwm sxhkd kitty nvim picom polybar rofi dunst
 ```
+Aye, to manage yer dependencies ye must first be installin' th' stow package, matey:
+```
+sudo pacman -S stow
+```
+Now ye be needin' t' clone this here repository 
+```
+git clone git@github.com:out-somniac/dotfiles.git
+```
+an' run `stow .` t' apply these dotfiles, me hearties.
+
+
 > [!NOTE]  
 > Arrr! 'Tis been a fair while since I last inspected these provisions. Don't be puttin' yer trust in me word alone, matey!
+
+
 
 ## Branches and differences
 Arrr, listen up, ye landlubbers! The [main](https://github.com/out-somniac/dotfiles/tree/main) branch be holdin' the bare bones setup. But mark ye well, since I be usin' this setup on more than one vessel, I've got two more branches:
