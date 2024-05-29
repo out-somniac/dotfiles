@@ -24,7 +24,7 @@ an' run `stow .` t' apply these dotfiles, me hearties.
 ## Nvim setup and starting configuration
 I've plundered [NvChad](https://github.com/out-somniac/NvChad) an' stashed me configuration files there. Ye can make use o' these defaults by cloning 'em into th' `.config/` directory:
 ```
-git clone -b v2.0 [https://github.com/NvChad/NvChad](https://github.com/out-somniac/NvChad) ~/.config/nvim --depth 1 && nvim
+git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
 
 ## Fonts
